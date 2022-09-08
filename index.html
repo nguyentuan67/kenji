@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>KENJI - ケンジ - Tinh Tuý Dưỡng Chất Nhật Bản</title>
+</head>
+<body>
+    <header class="header py-1" id="">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href="./index.html" class="logo--link">
+                    <img src="./assets/image/logo.png" alt="logo-page" class="logo--img">
+                </a>
+            </div>
+            
+            <nav class="navbar d-none d-md-flex">
+                <ul class="nav-list">
+                    <li class="nav__item">
+                        <a href="./index.html" class="nav__item--link active">Trang chủ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#productions" class="nav__item--link">Sản phẩm</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog-section" class="nav__item--link">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__item--link">Liên hệ</a>
+                    </li>
+                </ul>
+                <div class="nav-social">
+                    <ul class="nav-list">
+                        <li class="nav__item">
+                            <a href="https://www.facebook.com/kenjiduongchatnhatban" class="nav__item--link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="http://nanopharmagroup.com.vn/" class="nav__item--link">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="nav-mobile d-block d-md-none">
+                <div class="overlay"></div>
+                <div class="nav-mobile__btn" id="more-btn">
+                    <i class="far fa-bars nav-mobile--icon"></i>
+                </div>
+                <div class="nav-mb__menu" id="nav-mb__menu">
+                    <div class="nav-mobile__btn" id="close-btn">
+                        <i class="far fa-times nav-mobile--icon"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__item--link active">Trang chủ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#productions" class="nav__item--link">Sản phẩm</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#blog-section" class="nav__item--link">Blog</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#footer" class="nav__item--link">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <div class="nav-social">
+                        <div class="sub-title text-highlight nav-social__heading">Subcribe us</div>
+                        <ul class="nav-list">
+                            <li class="nav__item">
+                                <a href="https://www.facebook.com/kenjiduongchatnhatban" class="nav__item--link">
+                                    <i class="fab fa-facebook"></i>
+                                    <span class="nav-social__name">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="http://nanopharmagroup.com.vn/" class="nav__item--link">
+                                    <i class="fab fa-google"></i>
+                                    <span class="nav-social__name">NanoPharma Group</span>
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="app">
+        <div class="top-banner">
+            <div class="container h-100">
+                <div class="banner-wrapper">
+                    <div class="row align-items-center h-100">
+                        <div class="banner-text col-12 col-md-6">
+                            <h1 class="title">
+                                <span class="text-highlight">KENJI - ケンジ</span> 
+                                <br> Tinh Tuý Dưỡng Chất Nhật Bản
+                            </h1>
+                            <h3 class="banner-desc">Công thức dinh dưỡng cải tiến bổ sung hàm lượng sữa non cao, sữa non Colostrum, Inulin, Bột Yến Sào, Chiết Xuất Tổ Yến Từ Nhật Bản tác động sâu, giúp bổ xung đề kháng tối đa cho trẻ nhỏ</h3>
+                            <a href="#productions" class="more-btn">
+                                Xem sản phẩm
+                                <i class="fas fa-arrow-right more-btn--icon"></i>
+                            </a>
+                        </div>
+                        <div class="banner-img col-12 col-md-6">
+                            <img src="./assets/image/bg-top-image.png" alt="" class="bg-top-image">
+                            <img class="kenji-image kenji-1" src="./assets/image/top-image.png" alt="">
+                            <img class="kenji-image kenji-2" src="./assets/image/top-image-2.png" alt="">
+                            <div class="banner-tag tag-1">
+                                <div class="tag-blur"></div>
+                                <div class="tag-wrapper">
+                                    <div class="tag-icon">
+                                        <i class="fal fa-brain"></i>
+                                    </div>
+                                    <h2 class="tag-title">Phát triển toàn diện</h2>
+                                </div>
+                            </div>
+                            <div class="banner-tag tag-2">
+                                <div class="tag-blur"></div>
+                                <div class="tag-wrapper">
+                                    <div class="tag-icon">
+                                        <i class="fal fa-hand-holding-seedling"></i>
+                                    </div>
+                                    <h2 class="tag-title">Dinh dưỡng Nhật Bản</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <h2 class="title text-center text-highlight">
+                    Về chúng tôi...
+                </h2>
+                <div class="diamond-seperate"></div>
+                <div class="row pt-3">
+                    <div class="col-12 col-lg-7">
+                        <div class="about-text">
+                            <h3 class="description">Công ty cổ phần Dược Phẩm <strong class="text-highlight">Nano Pharma</strong> với bề dày kinh nghiệm trong lĩnh vực sản xuất thực phẩm bổ sung dinh dưỡng, không ngừng đầu tư nghiên cứu, cải tiến công thức để cho ra đời những dòng sản phẩm phù hợp nhất với thể trạng cũng như đặc thù dinh dưỡng của trẻ em Việt Nam.</h3>
+                            <h3 class="description"><strong class="text-highlight">Sữa KENJI IQ</strong> được nghiên cứu dựa trên nền tảng dinh dưỡng cao cấp và tinh tuý dưỡng chất từ Nhật Bản cho con yêu nguồn Sữa Mát & Phát Triển Toàn Diện. Đặc biệt, KENJI IQ  còn có nhiều dòng khác nhau, với mục đích có thêm các lợi ích kép để phù hợp với thể trạng và nhu cầu dinh dưỡng của từng trẻ đồng thời đáp ứng mọi mong muốn của mẹ dành cho con yêu của mình.</h3>
+                            <a href="#" class="more-btn mt-5">
+                                Liên hệ
+                                <i class="fas fa-arrow-right more-btn--icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="about-grid">
+                            <div class="gallery-item">
+                                <div class="gallery-item--bg" style="background: url(./assets/image/about-image-1.jpg) no-repeat center/cover;"></div>
+                            </div>
+                            <div class="gallery-item">
+                                <div class="gallery-item--bg" style="background: url(./assets/image/about-image-2.jpg) no-repeat center/cover;"></div>
+                            </div>
+                            <div class="gallery-item">
+                                <div class="gallery-item--bg" style="background: url(./assets/image/about-image-3.jpg) no-repeat center/cover;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formula-section">
+                <h2 class="title text-center text-highlight">
+                    Công thức dinh dưỡng
+                </h2>
+                <div class="diamond-seperate"></div>
+                <div class="container">
+                    <div class="row gx-4">
+                        <div class="col-lg-4 col-6 ">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 m-auto">
+                                    <img src="./assets/image/2fl.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="text-highlight">HMO (2′-FL)</span></h5>
+                                        <p class="card-text">Là đại dưỡng chất có trong sữa mẹ, hỗ trợ hệ vi sinh đường ruột, tăng khả năng miễn dịch cho bé.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 ">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 m-auto">
+                                    <img src="./assets/image/inulin.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="text-highlight">Inulin</span></h5>
+                                        <p class="card-text">Tăng cường chất xơ hoà tan Inulin/FOS giúp cân bằng hệ vi sinh đường ruột, hạn chế táo bón.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 ">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 m-auto">
+                                    <img src="./assets/image/igg.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="text-highlight">IgG</span></h5>
+                                        <p class="card-text">Bằng khả năng bắt dính với các mầm bệnh như vi khuẩn, virus hay nấm mà IgG có thể kiểm soát nhiễm trùng trong cơ thể.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 ">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 m-auto">
+                                    <img src="./assets/image/suanon.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="text-highlight">Colostrum</span></h5>
+                                        <p class="card-text">Sữa non Colostrum hàm lượng cao chứa kháng thể IgG bảo vệ bé khỏi nhiễm khuẩn đường ruột, ngăn chặn và tiêu diệt vi khuẩn gây hại.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 ">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 m-auto">
+                                    <img src="./assets/image/mk7.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="text-highlight">Vitamin MK7</span></h5>
+                                        <p class="card-text">Vitamin MK7 “huy động” canxi từ máu vào xương, tăng collagen trong xương cho xương luôn chắc khỏe. Trẻ phát triển chiều cao tối đa.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 ">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 m-auto">
+                                    <img src="./assets/image/26vichat.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="text-highlight">Vi chất</span></h5>
+                                        <p class="card-text">Cung cấp dinh dưỡng đầy đủ cân đối, gồm 26 vitamin và khoáng chất như vitamin A, C, D3, B6, Omega 3, Omega 6, DHA, Kẽm, Canxi, Lysine, Selen,…</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="productions">
+            <div class="container">
+                <h2 class="title text-center text-highlight">
+                Sản phẩm của Kenji-IQ
+            </h2>
+            <div class="diamond-seperate"></div>
+            <div class="products-slide">
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./assets/image/kid.png" alt="">
+                    </div>
+                    <div class="product-body text-center">
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <div class="card-title">Kid</div>
+                        <p class="card-text"><strong>0-12 tháng tuổi</strong>
+                            <br>Tăng cường sức đề kháng, phát triển não bộ và thị giác, hệ tiêu hóa khỏe, giúp trẻ tăng cân
+                        </p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./assets/image/grow.png" alt="">
+                    </div>
+                    <div class="product-body text-center">
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <div class="card-title">Grow</div>
+                        <p class="card-text"><strong>1-15 tuổi</strong>
+                            <br>Giúp phát triển não bộ, tư duy, tăng cường hấp thu, sức đề kháng
+                        </p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./assets/image/biomin.png" alt="">
+                    </div>
+                    <div class="product-body text-center">
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <div class="card-title">Biomin</div>
+                        <p class="card-text"><strong>6-36 tháng tuổi</strong>
+                            <br>Bổ sung nhiều dinh dưỡng, giúp trẻ ăn ngon miệng, tăng cân, hệ tiêu hóa khỏe mạnh
+                        </p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./assets/image/pedia.png" alt="">
+                    </div>
+                    <div class="product-body text-center">
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <div class="card-title">Pedia</div>
+                        <p class="card-text"><strong>1-10 tuổi</strong>
+                            <br>Giúp trẻ ăn ngon miệng, tăng cân, tăng cường tiêu hóa-hấp thu, tăng cường sức đề kháng
+                        </p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img src="./assets/image/sure.png" alt="">
+                    </div>
+                    <div class="product-body text-center">
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <i class="rating-star fa fa-star"></i>
+                        <div class="card-title">Sure Gold</div>
+                        <p class="card-text"><strong>18 tuổi trở lên</strong>
+                            <br>Dành cho người cần bổ sung sinh dưỡng , bồi bổ phục hồi sức khỏe sau phẫu thuật
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="brand-section">
+            <h2 class="title text-center text-highlight">
+                Thương hiệu
+            </h2>
+            <div class="diamond-seperate"></div>
+            <div class="container">
+                <div class="row gx-4">
+                    <div class="col-12 col-lg-6">
+                        <div class="left-image mb-4">
+                            <img src="./assets/image/banner-product.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h3 class="sub-title">Ra mắt sản phẩm sữa dinh dưỡng KENJI IQ. Tinh túy dưỡng chất NHẬT BẢN</h3>
+                        <p class="description"><span class="text-highlight fw-semibold">NANO PHARMA</span> cùng Viện Nghiên cứu Dinh dưỡng dành tâm huyết nghiên cứu cho ra đời KENJI IQ sữa dinh dưỡng công thức Nhật Bản MỚI giúp trẻ NHÂN ĐÔI ĐỀ KHÁNG, PHÁT TRIỂN CHIỀU CAO - TRÍ NÃO và GIÚP BÉ ĂN NGON - TIÊU HÓA TỐT nhờ :
+                            <br>⭐️100% sữa non 24h nhập khẩu từ NEW ZEALAND với kháng thể IgG 1000+ giúp tối ưu nền tảng miễn dịch, tránh các bệnh nhiễm khuẩn.
+                            <br>⭐️100% chiết xuất tổ yến được nhập khẩu NHẬT BẢN 
+                            <br>⭐️Công thức FDI là sự kết hợp HMO và FOS được phát triển dành riêng cho thể trạng đặc thù của trẻ em Việt và được chứng nhận lâm sàng giúp xây dựng nền tảng đề kháng khỏe - tiêu hóa tốt.
+                            KENJI IQ còn bổ sung DHA, Lutein cùng Canxi, Phốt pho, Vitamin D3 với tỉ lệ hợp lý giúp phát triển trí trí não, cao lớn tối ưu. Sản phẩm giúp bé phát triển toàn diện, bé khỏe, mẹ vui mọi lúc mọi nơi!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-section" id="blog-section">
+            <h2 class="title text-center text-highlight">
+                Bài viết nổi bật
+            </h2>
+            <h4 class="title-des text-center">Chia sẻ những bí quyết của Kenji-IQ</h4>
+            <div class="diamond-seperate"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-transparent w-100 mb-3">
+                            <img src="./assets/image/blog-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body px-0">
+                              <a href="https://www.facebook.com/kenjiduongchatnhatban/posts/pfbid0vbEuSCWvKfdeHv8kix9coWqRv4U4Dk6gvjkYdEe5Uff8VpjfhQ6QFZpTQLS8DXEEl" target="_blank" class="card-title">3 bí quyết giúp bé phát triển toàn diện</a>
+                              <p class="card-text"> Cùng KENJN học mẹ Nhật 3 bí quyết rèn luyện tại nhà, giúp bé vui khỏe, tự lập và phát triển khả năng sáng tạo của bé!</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-transparent w-100 mb-3">
+                            <img src="./assets/image/blog2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body px-0">
+                              <a href="https://www.facebook.com/kenjiduongchatnhatban/posts/pfbid02x5WpwrDcTwa1m2AFMbetDYjZmE131R4xunxQ9nn514ArZVsGhdaPtA8sRPZFRB69l" target="_blank" class="card-title">Bé phát triển chiều cao & hệ xương chắc khỏe</a>
+                              <p class="card-text">Bổ sung sữa KENJN BIOMIN với chất xơ GOS và cả Canxi, mẹ càng an tâm bé vừa tiêu hóa khỏe, vừa phát triển tốt chiều cao có hệ xương chắc khỏe.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-transparent w-100 mb-3">
+                            <img src="./assets/image/blog-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body px-0">
+                              <a href="https://www.facebook.com/kenjiduongchatnhatban/posts/pfbid02WDWn8Cw7Jvv1X64WyZXxwhHywSk62nXX86C6aDHzWbsPx6AwvxCy17xzBJjsERBFl" target="_blank" class="card-title">Tiêu hóa khỏe - bé thỏa thích vui chơi</a>
+                              <p class="card-text">Theo các chuyên gia nhi khoa cho biết, trẻ bị rối loạn tiêu hóa lâu ngày có thể dẫn tới việc rối loạn hệ vi khuẩn đường ruột, từ đó ảnh hưởng đến chức năng tiêu hóa cũng như giảm cảm giác thèm ăn của con.</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer-logo">
+                            <img src="./assets/image/logo.png" alt="">
+                        </div>
+                        <p class="text-footer">Sữa dinh dưỡng Kenji-IQ. Tinh túy dưỡng chất Nhật Bản</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h6 class="text-footer footer-title"><span class="">Liên hệ</span></h6>
+                        <a href="http://nanopharmagroup.com.vn/" class="text-link">CÔNG TY CỔ PHẦN DƯỢC PHẨM NANO PHARMA</a>
+                        <a href="https://www.facebook.com/kenjiduongchatnhatban" class="text-link sub-title">Facebook Kenji</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="copyright">© 2022 by Kenji-IQ</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/app.js"></script>
+        
+</body>
+</html>
