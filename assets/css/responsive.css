@@ -1,0 +1,35 @@
+@media (min-width: 767px) and (max-width: 991px)  { 
+    .banner-img img {
+        width: 145%;
+        object-fit: cover;
+    }
+
+    .about-text {
+        padding-right: 0;
+    }
+
+    .about-grid {
+        padding: 0;
+    }
+
+    .left-image {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+}
+/* lg */
+@media (min-width: 992px) and (max-width: 1999px) { 
+    
+}
+/* xl */
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    
+}
