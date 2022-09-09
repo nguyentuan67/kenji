@@ -1,4 +1,4 @@
-@media (min-width: 767px) and (max-width: 991px)  { 
+@media (max-width: 991px)  { 
     .banner-img img {
         width: 145%;
         object-fit: cover;
