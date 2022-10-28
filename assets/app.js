@@ -23,6 +23,13 @@ $(document).ready(function(){
                 slidesToShow: 2,
                 slidesToScroll: 2
             }
+            },
+            {
+            breakpoint: 420,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
             }
         ]
     });
